@@ -1375,7 +1375,7 @@ class SistemaAcademicoApp:
 
     def mostrar_menu(self) -> None:
         print("\n========================================================")
-        print(" SISTEMA GESTIÓN ACADÉMICA Y CAMPUS VIRTUAL (POO)")
+        print(" SISTEMA GESTIÓN ACADÉMICA")
         print("========================================================")
         print("1. Crear Estudiante")
         print("2. Crear Asignatura")
@@ -1385,7 +1385,7 @@ class SistemaAcademicoApp:
         print("6. Agregar Nota a Estudiante (por Asignatura o Grupo)")
         print("7. Calcular Promedio de Estudiante (general, asignatura o grupo)")
         print("8. Modificar contacto de Estudiante")
-        print("9. Imprimir objetos registrados (con notas por materia y grupos)")
+        print("9. Imprimir objetos registrados")
         print("0. Salir")
 
     def menu(self) -> None:
